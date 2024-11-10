@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(212, 209, 209);
+    padding: 0 10vw;
+}
+header div {
+    text-align: center;
+    padding: 2vw;
+}
+.fit {
+    width: fit-content;
+    display: inline-block;
+}
+header div a {
+    margin: 2vw;
+}
+main > * {
+    text-align: center;
+}
+form {
+    border: 1px solid black;
+    padding: 2vw;
+    width: fit-content;
+    margin: 0 auto;
+}
+input, textarea {
+    display: block;
+    margin: 0 auto;
+}
+textarea {
+    resize: none;
+}
+footer {
+    display: flex;
+    position: absolute;
+    flex: 1 0;
+    left: 44vw;
+}
+
+@media (height: 100vh) {
+    footer {
+        bottom: calc(100vh - 95vh);
+    }
+}
+
+.scrol {
+    margin: 6vw 0 4vw 0;
+    position: relative;
+    text-align: center;
+    display: block;
+    left: 0;
+    bottom: 0;
+    }
+
+input:invalid, textarea:invalid {
+    border: 1px solid red;
+}
+span {
+    color: rgb(118, 118, 118);
+    font-size: small;
+}
+table {
+    width: 100%;
+}
+table * {
+    border: 1px solid black;
+}
+td form {
+    padding: 0;
+    border: 0;
+}
